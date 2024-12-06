@@ -141,3 +141,34 @@
     color: white;
     border-color: #FF5733;
 }
+/* ISO Certification Section */
+.iso-certification {
+    background-color: #f9f9f9; /* Light background */
+    color: #333;
+}
+
+.iso-certification .text-orange {
+    color: #FF5733; /* Matches your orange theme */
+}
+
+.iso-certification ul {
+    padding: 0;
+    list-style: none;
+}
+
+.iso-certification ul li {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.iso-certification ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.iso-certification ul li a:hover {
+    color: #FF5733; /* Orange on hover */
+}

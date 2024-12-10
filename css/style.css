@@ -2,19 +2,67 @@
 .header01 {
     background-color: white !important;
 }
-/* Hero Section */
-.hero {
+
+a:hover,
+button:hover {
+    opacity: 0.7;
+}
+
+header .header-right a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header .header-right a:hover {
+    opacity: 0.7;
+}
+
+header .header_navbar {
+    padding: 15px 0;
+}
+
+header .header_navbar .navbar_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header_navbar .navbar_box ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+header .header_navbar .navbar_box ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+header .header_navbar .navbar_box ul li a.active,
+header .header_navbar .navbar_box ul li a:hover {
+    color: orange;
+}
+
+header .header_navbar .navbar_box ul li.contact_button {
+    border: 1px solid #FF5733;
+    padding: 5px 20px;
+}
+
+header section.hero {
     background: url('image.png') no-repeat center center/cover;
     position: relative;
-    height: 70vh; /* Reduced height for better visibility of services */
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     color: white;
 }
 
-.hero::after {
+header section.hero::after {
     content: "";
     position: absolute;
     top: 0;
@@ -25,98 +73,135 @@
     z-index: 1;
 }
 
-.hero-content {
-    position: relative;
-    z-index: 2;
-}
-
-/* Navbar Links Style */
-.navbar-nav .nav-link {
-    color: white !important; /* White text color */
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-    color: orange !important; /* Orange color on hover */
-}
-
-/* Dropdown Arrow */
-.navbar-nav .dropdown-toggle {
-    position: relative;
-}
-
-.navbar-nav .dropdown-toggle span {
-    font-size: 0.8rem;
-    position: absolute;
-    left: 5px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* Dropdown Menu Style */
-.dropdown-menu {
-    background-color: #333; /* Dark background for dropdown */
-    border: none;
-}
-
-.dropdown-item {
-    color: white; /* White text */
-    font-weight: normal;
-}
-
-.dropdown-item:hover {
-    background-color: #444; /* Slight hover effect */
-    color: orange; /* Orange on hover */
-}
-
-/* Navbar Active States */
-.navbar-nav .nav-item.active .nav-link {
-    color: orange !important; /* Highlight active link */
-}
-
-
-/* Positioned Services Tags */
-.services-tags {
-    display: flex;
-    justify-content: center;
-    align-content: flex-end !important;
-    gap: 2rem; /* Space between the tags */
-    position: absolute;
-    bottom: 20%; /* Adjusted position to fit with reduced hero height */
-    width: 100%;
-    color: lightgray;
-    z-index: 2;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.services-tags p {
+header section.hero .first_row h3 {
     margin: 0;
-    font-size: 1.1rem;
-    position: relative;
-    padding: 0 10px;
-    cursor: pointer;
-    white-space: nowrap;
 }
 
-.services-tags p::after {
-    content: "";
+header section.hero .second_row h1 {
+    margin: 0;
+    font-size: 70px;
+}
+
+header section.hero .second_row_first {
+    display: flex;
+    align-items: center;
+}
+
+header section.hero .second_row_first h1 {
+    width: 85%;
+}
+
+header section.hero .second_row_first p {
+    width: 70%;
+    margin: 0;
+    border-left: 3px solid #ec6342;
+    padding: 0 20px;
+}
+
+header section.hero .third_row {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+header section.hero .third_row button {
+    color: white;
+    font-weight: 600;
+    padding: 10px 50px;
+}
+
+header section.hero .third_row button:first-child{
+    border: 1px solid white;
+    background: transparent;
+}
+
+header section.hero .third_row button:nth-child(2){
+    border: 1px solid #ec6342;
+    background: #ec6342;
+}
+
+header section.hero .third_row button:hover {
+    opacity: 0.7;
+}
+
+header section.hero .fourth_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+header section.hero .fourth_row a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+/* main */
+
+main section.services .service_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    background: #1D1D1D;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    height: 100%;
+    justify-content: space-around;
+}
+
+main section.services .service_box i {
+    font-size: 50px;
+}
+
+main section.services .service_box h4 {
+    font-size: 16px;
+}
+
+main section.services .service_box p {
+    font-size: 14px;
+}
+
+main section.services .service_box button {
+    border: 1px solid #ec6342;
+    background: #ec6342;
+    color: white;
+    font-weight: 600;
+    padding: 7px 80px;
+    border-radius: 0;
+}
+
+main section.who_we_are {
+    background-color: #1D1D1D;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+main section.who_we_are .highlight_box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #FF6600;
+    padding: 10px;
+    margin: 15px 0;
+    gap: 15px;
+}
+
+main section.who_we_are .highlight_box i {
     display: block;
-    width: 100%;
-    height: 2px;
-    background-color: lightgray;
-    margin-top: 5px;
-    transition: transform 0.3s;
-    transform-origin: center;
-    transform: scaleX(0);
+    margin-bottom: 10px;
+    margin: 0 !important;
 }
 
-.services-tags p:hover::after {
-    transform: scaleX(1);
+main section.who_we_are .highlight_box p {
+    font-size: 1rem;
+    color: #FFFFFF;
+    margin: 0 !important;
+    text-align: left;
+    font-weight: 500;
 }
-
-
 
 /* Orange Divider */
 .divider-orange {
@@ -130,7 +215,8 @@
     background-color: #696969; /* Matches hero background */
 }
 
-.services h1 {
+.services h1,
+.who_we_are h1 {
     font-size: 2.5rem;
     font-weight: bold;
     color: #FF5733;
@@ -140,4 +226,11 @@
     background-color: #FF5733;
     color: white;
     border-color: #FF5733;
+}
+
+
+@media (max-width: 768px) {
+    header .header_navbar .navbar_box {
+        display: none;
+    }
 }

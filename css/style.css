@@ -227,7 +227,84 @@ main section.who_we_are .highlight_box p {
     color: white;
     border-color: #FF5733;
 }
+main section.demo button{
+    border-color: #FF5733;
+    color: #FF5733;
+    width: 200px;
+    border-radius: 0;
+}
 
+main section.demo .buttons .btn-orange{
+    border: 1px #FF5733;
+    background: #FF5733;
+    color: white;
+}
+
+main section.demo .buttons .btn-orange:hover{
+    background: white;
+    color: #FF5733;
+    border: 1px solid #FF5733;
+}
+
+main section.demo .buttons .btn-white:hover{
+    background: #FF5733;
+    color: white;
+    border: 1px solid white;
+}
+
+main section.demo .demo-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+main section.demo .buttons {
+    display: flex;
+    gap: 10px;
+}
+main section.demo .demo-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+main section.demo .demo-small-img {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main section.demo .demo-small-img img{
+    width: 80px;
+    height: 70px;
+    
+}
+main section.demo .line {
+    height: 4px;
+    width: 90px;
+    background-color: black;
+}
+
+main section.demo .single-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+main section.demo .single-button .btn-orange{
+    border: 1px #FF5733;
+    background: #FF5733;
+    color: white;
+
+}
+
+main section.demo .single-button .btn-orange:hover{
+    background: white;
+    color: #FF5733;
+    border: 1px solid #FF5733;
+
+}
 
 @media (max-width: 768px) {
     header .header_navbar .navbar_box {

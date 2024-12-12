@@ -306,6 +306,82 @@ main section.demo .single-button .btn-orange:hover{
 
 }
 
+.leadership-team {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+.leadership-team .team-title h2 {
+  font-size: 36px;
+  color: #FF5733;
+  margin-bottom: 20px;
+}
+.leadership-team .team-title p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+.leadership-team .team-members {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.leadership-team .team-member {
+  background-color: #292929;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.leadership-team .team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.leadership-team .team-member h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.leadership-team .team-member p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #ddd;
+}
+.leadership-team .btn-arrow {
+  text-decoration: none;
+}
+.leadership-team .circle-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #FF5733;
+  color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  margin: 0 auto;
+}
+.leadership-team .circle-arrow:hover {
+  background-color: white;
+  color: #FF5733;
+  transform: scale(1.1);
+}
+.leadership-team .team-footer {
+  margin-top: 40px;
+}
+.leadership-team .btn-underline {
+  background-color: transparent;
+  color: #FF5733;
+  border-bottom: 1px solid #FF5733;
+  border-radius: 0;
+  padding: 0 40px;
+}
+
 @media (max-width: 768px) {
     header .header_navbar .navbar_box {
         display: none;

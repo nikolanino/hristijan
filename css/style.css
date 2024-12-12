@@ -382,6 +382,93 @@ main section.demo .single-button .btn-orange:hover{
   padding: 0 40px;
 }
 
+.our-partners {
+  padding: 60px 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.our-partners .partners-title h2 {
+  font-size: 36px;
+  color: #FF5733;
+  margin-bottom: 20px;
+}
+.our-partners .partners-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.our-partners .partners-logos img {
+  max-width: 100px;
+  height: auto;
+}
+.our-partners .newsletter {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 30px;
+  margin: 40px 0;
+}
+.our-partners .newsletter p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.our-partners .newsletter form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.our-partners .newsletter input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.our-partners .newsletter button {
+  background-color: #FF5733;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.our-partners .newsletter button:hover {
+  background-color: white;
+  color: #FF5733;
+  border: 1px solid #FF5733;
+}
+.our-partners .iso-certification {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.our-partners .iso-logo img {
+  max-width: 150px;
+}
+.our-partners .iso-description h3 {
+  color: #FF5733;
+  margin-bottom: 10px;
+}
+.our-partners .iso-description p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.our-partners .iso-description ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.our-partners .iso-description ul li {
+  margin-bottom: 10px;
+}
+.newsletter-line {
+    height: 10px;
+    background-color: #FF5733;
+}
+
 @media (max-width: 768px) {
     header .header_navbar .navbar_box {
         display: none;

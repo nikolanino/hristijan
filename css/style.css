@@ -560,6 +560,25 @@ main section.demo .single-button .btn-orange:hover{
 .footer .map img {
     border-radius: 5px;
 }
+.white-footer p {
+    color: black;
+}
+.white-footer {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+.last-one {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    font-size: 12px;
+
+}
 
 @media (max-width: 768px) {
     header .header_navbar .navbar_box {

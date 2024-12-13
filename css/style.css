@@ -462,6 +462,11 @@ main section.demo .single-button .btn-orange:hover{
 .our-partners .iso-description ul li {
   margin-bottom: 10px;
 }
+.join {
+    color: #FF5733;
+    display: flex;
+    justify-content: center;
+}
 .footer {
     background-color: #1a1a1a;
     padding: 20px;

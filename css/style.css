@@ -585,6 +585,127 @@ main section.demo .single-button .btn-orange:hover{
 
 }
 
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #2a2a2a;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .key {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .key h2 {
+            font-size: 28px;
+            color: white;
+        }
+
+        .key h2 span {
+            color: #FF6F0F;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature-box {
+            flex: 1 1 calc(25% - 20px);
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            color: #FF6F0F;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+        .h4-01 h4 {
+            color: #FF6F0F;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .h4-01 {
+            padding-top: 50px;
+        }
+        .h4-01 p {
+            display: flex;
+            text-align: center;
+            font-size: 12px;
+            padding-top: 20px;
+
+        }
+        .h4-02 h4 {
+            color: #FF6F0F;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .h4-02 {
+            padding-top: 50px;
+        }
+        .h4-02 p {
+            display: flex;
+            text-align: center;
+            font-size: 12px;
+            padding-top: 20px;
+
+        }
+        .h4-03 h4 {
+            color: #FF6F0F;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .h4-03 {
+            padding-top: 50px;
+        }
+        .h4-03 p {
+            display: flex;
+            text-align: center;
+            font-size: 12px;
+            padding-top: 20px;
+
+        }
+        .h4-04 h4 {
+            color: #FF6F0F;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .h4-04 {
+            padding-top: 50px;
+        }
+        .h4-04 p {
+            display: flex;
+            text-align: center;
+            font-size: 12px;
+            padding-top: 20px;
+
+        }
+
 @media (max-width: 768px) {
     header .header_navbar .navbar_box {
         display: none;

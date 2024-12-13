@@ -637,6 +637,13 @@ body {
             line-height: 1.5;
             color: #333;
         }
+        .paragrapgh {
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
         .h4-01 h4 {
             color: #FF6F0F;
             font-size: 16px;

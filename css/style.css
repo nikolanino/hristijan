@@ -211,9 +211,7 @@ main section.who_we_are .highlight_box p {
 }
 
 /* Services Section */
-.services {
-    background-color: #696969; /* Matches hero background */
-}
+
 
 .services h1,
 .who_we_are h1 {
@@ -464,9 +462,87 @@ main section.demo .single-button .btn-orange:hover{
 .our-partners .iso-description ul li {
   margin-bottom: 10px;
 }
-.newsletter-line {
-    height: 10px;
-    background-color: #FF5733;
+.footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+}
+
+.footer h4 {
+    font-size: 24px;
+    color: white;
+
+}
+.footer li {
+    font-size: 12px;
+    color: white;
+}
+.footer .line {
+    border-right: 2px solid grey;
+}
+.footer .brand img{
+    width: 100%;
+}
+.footer .certifications {
+    display: flex;
+    justify-content: flex-end;
+    gap: 7px;
+    margin-top: 20px;
+}
+.footer .certifications img {
+    width: 75px;
+    height: 65px;
+}
+.footer .cert3 {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+
+}
+.footer .cert3 img {
+    width: 150px;
+    height: 60px;
+}
+.footer .footer-right h2{
+    color: white;
+    font-size: 28px;
+}
+.footer .footer-right form input {
+    background-color: grey;
+    margin-bottom: 2px;
+}
+.footer .footer-right form input[type="text"],
+.footer .footer-right form input[type="email"] {
+    width: 100%;
+}
+.footer .footer-right form input::placeholder {
+    color: white;
+}
+.footer .footer-right form textarea {
+    background-color: grey;
+    margin-top: 2px;
+    width: 100%;
+}
+.footer .footer-right form textarea::placeholder {
+    color: white;
+}
+.footer .footer-right .checkbox {
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer .footer-right .footer-submit {
+    display: flex;
+}
+.footer .footer-right button {
+    background-color: #FF6F0F;
+    width: 50%;
+    margin-top: 20px;
+    color: white;
+    padding: 5px;
+
 }
 
 @media (max-width: 768px) {

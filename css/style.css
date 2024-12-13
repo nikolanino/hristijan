@@ -544,6 +544,22 @@ main section.demo .single-button .btn-orange:hover{
     padding: 5px;
 
 }
+.footer .footer-last p {
+    color: white;
+    font-size: 12px;
+
+}
+.footer .footer-last {
+    padding: 5px;
+    padding-top: 40px;
+}
+.footer .contanct-info {
+    padding-top: 15px;
+
+}
+.footer .map img {
+    border-radius: 5px;
+}
 
 @media (max-width: 768px) {
     header .header_navbar .navbar_box {

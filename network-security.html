@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Link to your CSS -->
-</head>
-<header class="bg-dark text-white header01">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cybersecurity Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="bg-dark text-white header01">
             <div class="container py-2 d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <img src="images/logo.png" alt="Logo" height="50">
@@ -28,18 +28,14 @@
                     <div class="navbar_box">
                         <ul>
                             <li>
-                                <a href="#" class="active">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
                                 <a href="#">About us</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
-                            <ul>
-                                <a href="/services01.html">Services01</a>
-                            </ul>
+                                <a href="siem_tdr.html" class="active">Services</a>
                             </li>
-
                             <li>
                                 <a href="#">Industries</a>
                             </li>
@@ -64,70 +60,66 @@
             <section class="hero">
                 <div class="container" style="z-index: 2;">
                     <div class="second_row">
-                        <h1 style="display: flex; justify-content: center;"><span style="color: #FF6F0F; ">Incident </span> Response</h1>
-                        <p style="display: flex; justify-content: center;">"In the event of a breach, our expert team reacts swiftly to minimize damage and restore your systems quickly."</p>
+                        <h1 style="text-align: center;"><span style="color: #FF6F0F;">Network</span> Security</h1>
+                        <p style="display: flex; justify-content: center; text-align: center; font-weight: 600; font-size: 20px; margin-top: 25px;">"We offer end-to-end network security solutions, optimizing your infrastructure while securing it against unauthorized access."</p>
                     </div>
                     <div class="third_row">
-                        <button style="background-color: #FF6F0F;" class="">Get a Demo</button>
-                    </div>
-                    <div class="fourth_row">
-                        <a href="#">Finance</a>
-                        <a href="#">Healthcare</a>
-                        <a href="#">Government</a>
-                        <a href="#">Retail</a>
-                        <a href="#">Game</a>
-                        <a href="#">Education</a>
+                        <button style="border: 1px solid #ec6342; background: #ec6342;">Get a Demo</button>
                     </div>
                 </div>
             </section>
         </header>
-    <main class="service01-main">
-    	<div class="key">
-    		<h2>Key Features of <span style="color: #FF6F0F;;">Incident Responses</span></h2>
-    	</div>
-        <div class="features">
-            <div class="feature-box">
-                <h3>Reduce Response Time</h3>
-                <p>A clear plan enables quicker identification and remediation of threats, minimizing potential damage</p>
+        <main class="service01-main">
+            <div class="container">
+                <div class="key">
+                    <h2>Key Features of <span style="color: #FF6F0F;">Network Security</span></h2>
+                </div>
+                <div class="features">
+                    <div class="feature-box">
+                        <h3>Perform Regular Audits</h3>
+                        <p>Conduct thorough network audits to identify vulnerabilities and assess the overall security posture. </p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Implement Data Loss Prevention (DLP)</h3>
+                        <p>DLP strategies help monitor and control data transfers across the network to prevent unauthorized access or data breaches</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Educate Employees</h3>
+                        <p>Regular training on security awareness helps employees recognize phishing attempts and social engineering tactics, reducing the risk of human error</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Secure Routers</h3>
+                        <p>Change default passwords on routers, relocate them to secure areas, and implement additional security measures such as video surveillance to prevent unauthorized access</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="all_features">
+                        <div class="features_texts">
+                            <h4>Network Security: Best Practices and Strategies</h4>
+                            <p style="width: 100%; margin: 0 auto; text-align: center;">INetwork security encompasses a range of measures designed to protect the integrity, confidentiality, and availability of computer networks and data. As cyber threats evolve, organizations must adopt robust strategies to safeguard their networks against unauthorized access, misuse, or damage.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Key Components of Network Security</h4>
+                            <p>Physical Security: Protects physical assets such as servers, routers, and switches from unauthorized access. This includes using locks, surveillance cameras, and controlled access to facilities.
+                            Technical Security: Involves the use of hardware and software technologies to protect data in transit and at rest. This includes firewalls, intrusion detection systems (IDS), and encryption protocols.
+                            Administrative Security: Focuses on policies and procedures that govern user behavior and access controls. This includes user authentication processes and compliance with security policies.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Best Practices for Network Security</h4>
+                            <p>Secure Routers: Change default passwords on routers, relocate them to secure areas, and implement additional security measures such as video surveillance to prevent unauthorized access.
+                            Use SIEM Solutions: Aggregate network data in a Security Information and Event Management (SIEM) system to analyze real-time alerts and historical data for potential threats.
+                            Establish Access Controls: Implement strict access management policies to regulate who can access sensitive information based on their roles within the organization.
+                            Network Segmentation: Divide the network into segments based on trust levels to contain potential breaches and limit the spread of threats across the network.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Conclusion</h4>
+                            <p style="padding-bottom: 40px;">Implementing these best practices is essential for maintaining a secure network environment. Organizations must remain vigilant against emerging threats by continuously updating their security measures, educating employees, and leveraging advanced technologies like SIEM systems. By fostering a culture of security awareness and proactive defense, organizations can significantly reduce their risk exposure in an increasingly complex cyber landscape.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="feature-box">
-                <h3>Enhance Coordination</h3>
-                <p>Clearly defined roles and responsibilities facilitate teamwork during high-stress situations</p>
-            </div>
-            <div class="feature-box">
-                <h3>Ensure Compliance</h3>
-                <p>Many regulations require documented incident response procedures, helping organizations avoid legal repercussions</p>
-            </div>
-            <div class="feature-box">
-                <h3>Improve Security Posture</h3>
-                <p>Post-incident analysis allows organizations to learn from incidents and strengthen defenses against future threats</p>
-            </div>
-        </div>
-        <div class="container">
-        	<div class="h4-01">
-        		<h4>Incident Response: Overview and Best Practices</h4>
-        		<p style="width: 100%; margin: 0 auto; text-align: center;">Incident response refers to the structured approach organizations use to prepare for, detect, manage, and recover from cybersecurity incidents. A well-defined incident response plan (IRP) is crucial for minimizing damage and ensuring a swift recovery.</p>
-        	</div>
-        	<div class="h4-02">
-        		<h4>Best Practices for Effective Incident Response</h4>
-        		<p>Develop a Comprehensive IRP: Ensure your IRP includes detailed procedures for various types of incidents, communication plans, and escalation paths for different threat levels
-                Implement Continuous Monitoring: Utilize tools like SIEM (Security Information and Event Management) to monitor for suspicious activities 24/7
-                Conduct Regular Training: Regularly educate employees about potential threats and proper reporting procedures to foster a culture of security awareness within the organization</p>
-        	</div>
-        	<div class="h4-03">
-        		<h4>Phases of Incident Response</h4>
-        		<p>The incident response process typically involves several key phases:
-                    Preparation: Organizations should conduct risk assessments, define security policies, and establish an incident response team with clearly defined roles. This phase may also include employee training to promote security awareness
-                    Detection and Analysis: Continuous monitoring of systems helps in the early detection of anomalies. Once detected, incidents must be prioritized based on their potential impact. Analyzing the nature and scope of the threat is crucial for an effective response strategy
-                    Containment: Immediate actions are taken to limit the spread of the incident. This may involve isolating affected systems or disabling compromised accounts</p>
-        	</div>
-        	<div class="h4-04">
-        		<h4>Conclusion</h4>
-        		<p style="padding-bottom: 40px;">A robust incident response strategy is essential for any organization aiming to protect its assets from cyber threats. By preparing adequately, responding effectively, and learning from past incidents, organizations can significantly enhance their resilience against future attacks. Implementing best practices in incident response not only mitigates risks but also fosters a proactive security culture within the organization.</p>
-        	</div>
-        </div>
-    </main>
-    <footer>
+        </main>
+        <footer>
             <div class="container">
                 <div class="row">
                     <div class="line col-12 col-sm-12 col-md-2 col-lg-2">
@@ -150,11 +142,11 @@
                                 <div class="services">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li>SIEM - 24/7 Threat Monitoring</li>
-                                        <li>Penetration Testing</li>
-                                        <li>Incident Management</li>
-                                        <li>Compliance & Risk Management</li>
-                                        <li>Security Awareness Training</li>
+                                        <li><a href="siem_tdr.html">SIEM - 24/7 Threat Monitoring</a></li>
+                                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                                        <li><a href="incident-response.html">Incident Management</a></li>
+                                        <li><a href="#">Compliance & Risk Management</a></li>
+                                        <li><a href="security-awareness.html">Security Awareness Training</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,4 +235,5 @@
                 </div>
             </div>
         </footer>
+    </body>
 </html>

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Link to your CSS -->
-</head>
-<header class="bg-dark text-white header01">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cybersecurity Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="bg-dark text-white header01">
             <div class="container py-2 d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <img src="images/logo.png" alt="Logo" height="50">
@@ -28,18 +28,14 @@
                     <div class="navbar_box">
                         <ul>
                             <li>
-                                <a href="#" class="active">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
                                 <a href="#">About us</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
-                            <ul>
-                                <a href="/services01.html">Services01</a>
-                            </ul>
+                                <a href="siem_tdr.html" class="active">Services</a>
                             </li>
-
                             <li>
                                 <a href="#">Industries</a>
                             </li>
@@ -64,70 +60,66 @@
             <section class="hero">
                 <div class="container" style="z-index: 2;">
                     <div class="second_row">
-                        <h1 style="display: flex; justify-content: center;"><span style="color: #FF6F0F; ">Penetration</span> Testing</h1>
-                        <p style="display: flex; justify-content: center;">"Identify and eliminate vulnerabilities in your network with our comprehensive penetration testing services."</p>
+                        <h1 style="text-align: center;"><span style="color: #FF6F0F;">Incident</span> Response</h1>
+                        <p style="display: flex; justify-content: center; text-align: center; font-weight: 600; font-size: 20px; margin-top: 25px;">"In the event of a breach, our expert team reacts swiftly to minimize damage and restore your systems quickly."</p>
                     </div>
                     <div class="third_row">
-                        <button style="background-color: #FF6F0F;" class="">Get a Demo</button>
-                    </div>
-                    <div class="fourth_row">
-                        <a href="#">Finance</a>
-                        <a href="#">Healthcare</a>
-                        <a href="#">Government</a>
-                        <a href="#">Retail</a>
-                        <a href="#">Game</a>
-                        <a href="#">Education</a>
+                        <button style="border: 1px solid #ec6342; background: #ec6342;">Get a Demo</button>
                     </div>
                 </div>
             </section>
         </header>
-    <main class="service01-main">
-    	<div class="key">
-    		<h2>Key Features of <span style="color: #FF6F0F;;">Penetration Testing</span></h2>
-    	</div>
-        <div class="features">
-            <div class="feature-box">
-                <h3>Reconnaissance</h3>
-                <p>SGathering information about the target system, which may include identifying network services and potential entry points</p>
+        <main class="service01-main">
+            <div class="container">
+                <div class="key">
+                    <h2>Key Features of <span style="color: #FF6F0F;">Incident Response</span></h2>
+                </div>
+                <div class="features">
+                    <div class="feature-box">
+                        <h3>Reduce Response Time</h3>
+                        <p>A clear plan enables quicker identification and remediation of threats, minimizing potential damage</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Enhance Coordination</h3>
+                        <p>Clearly defined roles and responsibilities facilitate teamwork during high-stress situations</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Ensure Compliance</h3>
+                        <p>Many regulations require documented incident response procedures, helping organizations avoid legal repercussions</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Improve Security Posture</h3>
+                        <p>Post-incident analysis allows organizations to learn from incidents and strengthen defenses against future threats</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="all_features">
+                        <div class="features_texts">
+                            <h4>Incident Response: Overview and Best Practices</h4>
+                            <p style="width: 100%; margin: 0 auto; text-align: center;">Incident response refers to the structured approach organizations use to prepare for, detect, manage, and recover from cybersecurity incidents. A well-defined incident response plan (IRP) is crucial for minimizing damage and ensuring a swift recovery.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Best Practices for Effective Incident Response</h4>
+                            <p>Develop a Comprehensive IRP: Ensure your IRP includes detailed procedures for various types of incidents, communication plans, and escalation paths for different threat levels
+                            Implement Continuous Monitoring: Utilize tools like SIEM (Security Information and Event Management) to monitor for suspicious activities 24/7
+                            Conduct Regular Training: Regularly educate employees about potential threats and proper reporting procedures to foster a culture of security awareness within the organization</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Phases of Incident Response</h4>
+                            <p>The incident response process typically involves several key phases:
+                                Preparation: Organizations should conduct risk assessments, define security policies, and establish an incident response team with clearly defined roles. This phase may also include employee training to promote security awareness
+                                Detection and Analysis: Continuous monitoring of systems helps in the early detection of anomalies. Once detected, incidents must be prioritized based on their potential impact. Analyzing the nature and scope of the threat is crucial for an effective response strategy
+                                Containment: Immediate actions are taken to limit the spread of the incident. This may involve isolating affected systems or disabling compromised accounts</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Conclusion</h4>
+                            <p style="padding-bottom: 40px;">A robust incident response strategy is essential for any organization aiming to protect its assets from cyber threats. By preparing adequately, responding effectively, and learning from past incidents, organizations can significantly enhance their resilience against future attacks. Implementing best practices in incident response not only mitigates risks but also fosters a proactive security culture within the organization.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="feature-box">
-                <h3>Scanning</h3>
-                <p>Using tools to discover live hosts, open ports, and services running on those ports. This phase helps in mapping the attack surface</p>
-            </div>
-            <div class="feature-box">
-                <h3>Gaining Access</h3>
-                <p>Exploiting identified vulnerabilities using various tools and techniques to gain unauthorized access to the system. </p>
-            </div>
-            <div class="feature-box">
-                <h3>Maintaning Access</h3>
-                <p>Establishing a persistent presence within the target environment to gather further data and assess the extent of control that can be achieved </p>
-            </div>
-        </div>
-        <div class="container">
-        	<div class="h4-01">
-        		<h4>Overview of Penetration Testing</h4>
-        		<p style="width: 100%; margin: 0 auto; text-align: center;">Penetration testing, often referred to as "pentesting," is an authorized simulated cyberattack on a computer system, designed to evaluate its security. Unlike vulnerability assessments, which merely identify potential weaknesses, penetration tests actively exploit vulnerabilities to demonstrate their impact and assess the overall security posture of the system.</p>
-        	</div>
-        	<div class="h4-02">
-        		<h4>Purpose and Importance</h4>
-        		<p>The primary goal of penetration testing is to identify and address security vulnerabilities before they can be exploited by malicious actors. By simulating real-world attacks, organizations can understand their weaknesses and implement necessary defenses. Regular penetration testing is crucial for maintaining robust cybersecurity measures, especially in light of increasing cyber threats.</p>
-        	</div>
-        	<div class="h4-03">
-        		<h4>Types of Penetration Testing</h4>
-        		<p>Different types of penetration tests focus on various aspects of an organization's security:</p>
-                <p>1. Web Application Testing: Evaluates web applications for vulnerabilities such as SQL injection and cross-site scripting (XSS).</p>
-                <p>2. Internal Network Testing: Assesses vulnerabilities from within the network, simulating an insider threat.</p>
-                <p>3. External Network Testing: Identifies vulnerabilities that could be exploited from outside the organization.</p>
-                <p>4. Social Engineering Testing: Tests employees' susceptibility to phishing and other social engineering tactics.</p>
-                <p>5. Wireless Network Testing: Examines the security of wireless networks against unauthorized access.</p>
-        	</div>
-        	<div class="h4-04">
-        		<h4>Conclusion</h4>
-        		<p style="padding-bottom: 40px;">Penetration testing is an essential component of a comprehensive cybersecurity strategy. By simulating attacks and identifying vulnerabilities, organizations can take proactive measures to strengthen their defenses against real-world threats. Regularly scheduled penetration tests not only enhance security but also ensure compliance with industry regulations, ultimately protecting sensitive data and maintaining trust with stakeholders.</p>
-        	</div>
-        </div>
-    </main>
-    <footer>
+        </main>
+        <footer>
             <div class="container">
                 <div class="row">
                     <div class="line col-12 col-sm-12 col-md-2 col-lg-2">
@@ -150,11 +142,11 @@
                                 <div class="services">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li>SIEM - 24/7 Threat Monitoring</li>
-                                        <li>Penetration Testing</li>
-                                        <li>Incident Management</li>
-                                        <li>Compliance & Risk Management</li>
-                                        <li>Security Awareness Training</li>
+                                        <li><a href="siem_tdr.html">SIEM - 24/7 Threat Monitoring</a></li>
+                                        <li><a href="penetration-testing.html">Penetration Testing</a></li>
+                                        <li class="active"><a href="incident-response.html">Incident Management</a></li>
+                                        <li><a href="#">Compliance & Risk Management</a></li>
+                                        <li><a href="security-awareness.html">Security Awareness Training</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,4 +235,5 @@
                 </div>
             </div>
         </footer>
+    </body>
 </html>

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cybersecurity Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Link to your CSS -->
-</head>
-<header class="bg-dark text-white header01">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cybersecurity Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="bg-dark text-white header01">
             <div class="container py-2 d-flex justify-content-between align-items-center">
                 <div class="logo">
                     <img src="images/logo.png" alt="Logo" height="50">
@@ -28,18 +28,14 @@
                     <div class="navbar_box">
                         <ul>
                             <li>
-                                <a href="#" class="active">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li>
                                 <a href="#">About us</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
-                            <ul>
-                                <a href="/services01.html">Services01</a>
-                            </ul>
+                                <a href="siem_tdr.html" class="active">Services</a>
                             </li>
-
                             <li>
                                 <a href="#">Industries</a>
                             </li>
@@ -64,70 +60,66 @@
             <section class="hero">
                 <div class="container" style="z-index: 2;">
                     <div class="second_row">
-                        <h1 style="display: flex; justify-content: center;"><span style="color: #FF6F0F; ">Security </span> Awareness Training </h1>
-                        <p style="display: flex; justify-content: center;">"Empower your employees to recognize and respond to potential cyber threats. Our comprehensive security awareness programs equip your workforce with the knowledge they need to prevent attacks."</p>
+                        <h1 style="text-align: center;"><span style="color: #FF6F0F;">Penetration</span> Testing</h1>
+                        <p style="display: flex; justify-content: center; text-align: center; font-weight: 600; font-size: 20px; margin-top: 25px;">"Identify and eliminate vulnerabilities in your network with our comprehensive penetration testing services."</p>
                     </div>
                     <div class="third_row">
-                        <button style="background-color: #FF6F0F;" class="">Get a Demo</button>
-                    </div>
-                    <div class="fourth_row">
-                        <a href="#">Finance</a>
-                        <a href="#">Healthcare</a>
-                        <a href="#">Government</a>
-                        <a href="#">Retail</a>
-                        <a href="#">Game</a>
-                        <a href="#">Education</a>
+                        <button style="border: 1px solid #ec6342; background: #ec6342;">Get a Demo</button>
                     </div>
                 </div>
             </section>
         </header>
-    <main class="service01-main">
-    	<div class="key">
-    		<h2>Key Features of <span style="color: #FF6F0F;;"> Security Awareness Training</span></h2>
-    	</div>
-        <div class="features">
-            <div class="feature-box">
-                <h3>Customized Content</h3>
-                <p>Tailor training materials to different roles within the organization to ensure relevance and engagement</p>
+        <main class="service01-main">
+            <div class="container">
+                <div class="key">
+                    <h2>Key Features of <span style="color: #FF6F0F;">Penetration Testing</span></h2>
+                </div>
+                <div class="features">
+                    <div class="feature-box">
+                        <h3>Reconnaissance</h3>
+                        <p>SGathering information about the target system, which may include identifying network services and potential entry points</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Scanning</h3>
+                        <p>Using tools to discover live hosts, open ports, and services running on those ports. This phase helps in mapping the attack surface</p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Gaining Access</h3>
+                        <p>Exploiting identified vulnerabilities using various tools and techniques to gain unauthorized access to the system. </p>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Maintaning Access</h3>
+                        <p>Establishing a persistent presence within the target environment to gather further data and assess the extent of control that can be achieved </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="all_features">
+                        <div class="features_texts">
+                            <h4>Overview of Penetration Testing</h4>
+                            <p style="width: 100%; margin: 0 auto; text-align: center;">Penetration testing, often referred to as "pentesting," is an authorized simulated cyberattack on a computer system, designed to evaluate its security. Unlike vulnerability assessments, which merely identify potential weaknesses, penetration tests actively exploit vulnerabilities to demonstrate their impact and assess the overall security posture of the system.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Purpose and Importance</h4>
+                            <p>The primary goal of penetration testing is to identify and address security vulnerabilities before they can be exploited by malicious actors. By simulating real-world attacks, organizations can understand their weaknesses and implement necessary defenses. Regular penetration testing is crucial for maintaining robust cybersecurity measures, especially in light of increasing cyber threats.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Types of Penetration Testing</h4>
+                            <p>Different types of penetration tests focus on various aspects of an organization's security:</p>
+                            <p>1. Web Application Testing: Evaluates web applications for vulnerabilities such as SQL injection and cross-site scripting (XSS).</p>
+                            <p>2. Internal Network Testing: Assesses vulnerabilities from within the network, simulating an insider threat.</p>
+                            <p>3. External Network Testing: Identifies vulnerabilities that could be exploited from outside the organization.</p>
+                            <p>4. Social Engineering Testing: Tests employees' susceptibility to phishing and other social engineering tactics.</p>
+                            <p>5. Wireless Network Testing: Examines the security of wireless networks against unauthorized access.</p>
+                        </div>
+                        <div class="features_texts">
+                            <h4>Conclusion</h4>
+                            <p style="padding-bottom: 40px;">Penetration testing is an essential component of a comprehensive cybersecurity strategy. By simulating attacks and identifying vulnerabilities, organizations can take proactive measures to strengthen their defenses against real-world threats. Regularly scheduled penetration tests not only enhance security but also ensure compliance with industry regulations, ultimately protecting sensitive data and maintaining trust with stakeholders.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="feature-box">
-                <h3>Regular Training Sessions</h3>
-                <p>Conduct training sessions every four to six months, as retention of knowledge tends to decline after this period</p>
-            </div>
-            <div class="feature-box">
-                <h3>Diverse Learning Methods</h3>
-                <p>Utilize various formats such as videos, quizzes, and simulations to cater to different learning styles and keep content engaging</p>
-            </div>
-            <div class="feature-box">
-                <h3>Phishing Simulations</h3>
-                <p>Regularly test employees with simulated phishing attacks to reinforce learning and gauge awareness levels</p>
-            </div>
-        </div>
-        <div class="container">
-        	<div class="h4-01">
-        		<h4>Security Awareness Training: Importance and Best Practices</h4>
-        		<p style="width: 100%; margin: 0 auto; text-align: center;">Security awareness training is a strategic initiative aimed at educating employees about cybersecurity risks and best practices. By enhancing awareness, organizations can significantly reduce the likelihood of security breaches caused by human error.</p>
-        	</div>
-        	<div class="h4-02">
-        		<h4>Objectives of Security Awareness Training</h4>
-        		<p>Educate Employees: Teach staff about the importance of cybersecurity and their role in protecting organizational assets.
-                Reduce Human Error: Equip employees with the knowledge to recognize and respond to potential threats, thus minimizing incidents caused by negligence.
-                Cultivate a Cybersecurity Mindset: Foster a culture of security where employees feel responsible for safeguarding sensitive information.</p>
-        	</div>
-        	<div class="h4-03">
-        		<h4>Best Practices for Implementation</h4>
-        		<p>Onboarding Training: Integrate security awareness training into the onboarding process for new employees to establish a security-first culture from the start.
-                Continuous Learning: Provide ongoing education through newsletters, updates on emerging threats, and refresher courses throughout the year.
-                Positive Reinforcement: Use humor and engaging content rather than fear-based tactics to improve retention and participation in training programs.
-                Measure Effectiveness: Implement metrics to assess the impact of training, such as tracking phishing susceptibility rates before and after training sessions</p>
-        	</div>
-        	<div class="h4-04">
-        		<h4>Conclusion</h4>
-        		<p style="padding-bottom: 40px;">Security awareness training is essential for building a resilient organizational culture against cyber threats. By educating employees on best practices and fostering a proactive approach to cybersecurity, organizations can significantly mitigate risks associated with human error. Regularly updated training programs that engage employees will help maintain high levels of awareness and readiness against evolving cyber threats.</p>
-        	</div>
-        </div>
-    </main>
-    <footer>
+        </main>
+        <footer>
             <div class="container">
                 <div class="row">
                     <div class="line col-12 col-sm-12 col-md-2 col-lg-2">
@@ -150,11 +142,11 @@
                                 <div class="services">
                                     <h4>Services</h4>
                                     <ul>
-                                        <li>SIEM - 24/7 Threat Monitoring</li>
-                                        <li>Penetration Testing</li>
-                                        <li>Incident Management</li>
-                                        <li>Compliance & Risk Management</li>
-                                        <li>Security Awareness Training</li>
+                                        <li><a href="siem_tdr.html">SIEM - 24/7 Threat Monitoring</a></li>
+                                        <li class="active"><a href="penetration-testing.html">Penetration Testing</a></li>
+                                        <li><a href="incident-response.html">Incident Management</a></li>
+                                        <li><a href="#">Compliance & Risk Management</a></li>
+                                        <li><a href="security-awareness.html">Security Awareness Training</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -243,4 +235,5 @@
                 </div>
             </div>
         </footer>
+    </body>
 </html>

@@ -204,6 +204,15 @@ main section.who_we_are .highlight_box p {
     font-weight: 500;
 }
 
+.service01-main {
+    background-color: #323232;
+
+}
+.service01-main p{
+    color: white;
+    align-items: center;
+}
+
 /* Orange Divider */
 .divider-orange {
     height: 4px;
@@ -818,6 +827,7 @@ footer .map img {
 .key {
     text-align: center;
     margin-bottom: 40px;
+    padding-top: 30px;
 }
 
 .key h2 {

@@ -139,6 +139,45 @@ header section.hero .fourth_row a {
     text-decoration: none;
 }
 
+header .dropdown {
+    position: relative;
+}
+
+header .dropdown-menu {
+    display: none!important;
+    position: absolute!important;
+    background-color: #D9D9D980!important;
+    min-width: 220px!important;
+    list-style: none!important;
+    padding: 20px 0!important;
+    z-index: 1000!important;
+    top: 20px;
+    left: -122px;
+    border-radius: 0;
+}
+
+header .dropdown-menu li a {
+    color: #fff;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    white-space: pre;
+    color: #2A2A2A!important;
+}
+
+header .dropdown-menu li a:hover {
+    background-color: #FF5733;
+}
+
+header .dropdown:hover .dropdown-menu {
+    display: flex!important;
+}
+
+header .dropdown-menu.show {
+    display: flex!important;
+}
+
+
 /* main */
 
 main section.services .service_box {
